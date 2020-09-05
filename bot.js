@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 const command = args.shift().toLocaleLowerCase();
-if (command === '8') {
+if (command === "8") {
   const testEmbed = new Discord.RichEmbed()
     .setColor(34a8eb)
     .setTitle('Rules')
