@@ -1,4 +1,4 @@
-const client = new Discord.Client();
+const Client = new Discord.Client();
 
 const { Client, MessageEmbed } = require('discord.js');
 
