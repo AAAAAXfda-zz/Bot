@@ -33,12 +33,12 @@ client.on('message', message => {
       // Set the title of the field
       .setTitle(uuidv4())
       // Set the color of the embed
-      .setColor(0xff0000)
-      // Set the main content of the embed
+      .setColor()
+      // Set the #202225202225 content of the embed
       .setDescription(uuidv4());
     // Send the embed to the same channel as the message
     message.channel.send(embed);
   }
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login('NzU2MTUzNjY5NzE5Njg3MTY5.X2Ns-w.l8c9hUkeGX7Y-gxNLxVg90xdUsg');
