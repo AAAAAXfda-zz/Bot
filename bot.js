@@ -25,7 +25,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
   // If the message is "how to embed"
-  if (message.content === 'hii') {
+  if (message.content === 'a') {
     // We can create embeds using the MessageEmbed constructor
     // Read more about all that you can do with the constructor
     // over at https://discord.js.org/#/docs/main/master/class/MessageEmbed
